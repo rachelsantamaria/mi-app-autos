@@ -1,18 +1,18 @@
 :root {
   font-family: Inter, Arial, Helvetica, sans-serif;
 
-  --bg-main: #f8fafc;        /* Fondo general blanco/gris muy claro */
-  --bg-secondary: #f1f5f9;   /* Fondo secundario azulado suave */
-  --bg-card: #ffffff;        /* Fondo blanco para tarjetas y contenedores */
-  --bg-soft: #f8fafc;        /* Fondo suave para elementos pequeños */
+  --bg-main: #f8fafc;        
+  --bg-secondary: #f1f5f9;   
+  --bg-card: #ffffff;        
+  --bg-soft: #f8fafc;        
 
-  --text-main: #0f172a;      /* Texto principal casi negro */
-  --text-secondary: #64748b; /* Texto secundario gris pizarra */
+  --text-main: #0f172a;      
+  --text-secondary: #64748b; 
 
-  --accent: #2563eb;         /* Azul corporativo moderno */
-  --accent-hover: #1d4ed8;   /* Azul más oscuro para hover */
+  --accent: #2563eb;         
+  --accent-hover: #1d4ed8;   
 
-  --border: #e2e8f0;         /* Borde gris claro limpio */
+  --border: #e2e8f0;         
 
   --max-width: 1200px;
 
