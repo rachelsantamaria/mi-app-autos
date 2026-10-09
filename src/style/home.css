@@ -1,0 +1,219 @@
+/* =========================
+   HERO
+========================= */
+
+.home-hero {
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(248, 250, 252, 0.98) 0%,
+      rgba(248, 250, 252, 0.88) 48%,
+      rgba(248, 250, 252, 0.4) 100%
+    ),
+    radial-gradient(circle at 80% 50%, #e2e8f0 0%, #f1f5f9 38%, #f8fafc 80%);
+}
+
+.home-hero::after {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  right: -160px;
+  bottom: -260px;
+  background: var(--accent, #2563eb);
+  opacity: 0.08;
+  border-radius: 50%;
+  filter: blur(10px);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  width: min(100% - 40px, var(--max-width));
+  margin-inline: auto;
+}
+
+.hero-content-inner {
+  max-width: 680px;
+}
+
+.hero-eyebrow {
+  margin-bottom: 18px;
+  color: var(--accent, #2563eb);
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.16rem;
+  text-transform: uppercase;
+}
+
+.hero-title {
+  max-width: 800px;
+  font-size: clamp(3.2rem, 7vw, 6.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.25rem;
+  color: var(--text-main, #0f172a);
+}
+
+.hero-title span {
+  color: var(--accent, #2563eb);
+}
+
+.hero-description {
+  max-width: 580px;
+  margin-top: 25px;
+  color: var(--text-secondary, #64748b);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 14px;
+  margin-top: 35px;
+}
+
+/* =========================
+   FEATURED CARS
+========================= */
+
+.featured-section {
+  padding: 95px 0;
+  background: var(--bg-secondary, #f1f5f9);
+}
+
+.featured-container {
+  width: min(100% - 40px, var(--max-width));
+  margin-inline: auto;
+}
+
+.featured-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 40px;
+}
+
+.featured-link {
+  color: var(--text-secondary, #64748b);
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.featured-link:hover {
+  color: var(--accent, #2563eb);
+}
+
+/* =========================
+   EXPERIENCE
+========================= */
+
+.experience {
+  padding: 110px 0;
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 60%, #f1f5f9 100%);
+}
+
+.experience-container {
+  width: min(100% - 40px, 800px);
+  margin-inline: auto;
+  text-align: center;
+}
+
+.experience-kicker {
+  color: var(--accent, #2563eb);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.16rem;
+  text-transform: uppercase;
+}
+
+.experience-content h2 {
+  margin-top: 10px;
+  font-size: clamp(2.4rem, 4vw, 4rem);
+  line-height: 1;
+  color: var(--text-main, #0f172a);
+}
+
+.experience-content > p:not(.experience-kicker) {
+  margin-top: 24px;
+  color: var(--text-secondary, #64748b);
+  line-height: 1.8;
+}
+
+.check-list {
+  display: inline-block;
+  margin-top: 24px;
+  padding-left: 1.3em;
+  text-align: left;
+  line-height: 1.8;
+  color: var(--text-secondary, #64748b);
+}
+
+.experience-link {
+  display: block;
+  width: fit-content;
+  margin: 30px auto 0;
+  color: var(--accent, #2563eb);
+  font-weight: 700;
+}
+
+.experience-link:hover {
+  color: var(--accent-hover, #1d4ed8);
+}
+
+.experience-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.experience-stat {
+  min-height: 150px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: #ffffff;
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+}
+
+.experience-stat strong {
+  color: var(--accent, #2563eb);
+  font-size: 2rem;
+}
+
+.experience-stat span {
+  margin-top: 6px;
+  color: var(--text-secondary, #64748b);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 800px) {
+  .home-hero {
+    min-height: 560px;
+  }
+
+  .hero-title {
+    letter-spacing: -0.12rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .featured-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
