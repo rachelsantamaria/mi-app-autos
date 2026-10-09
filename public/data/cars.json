@@ -8,7 +8,7 @@
     "mileage": 12500,
     "seats": 7,
     "type": "SUV",
-    "image": "",
+    "image": "/images/2024-volkswagen-atlas.jpg",
     "featured": true,
     "description": "SUV versátil con espacio para siete pasajeros y equipamiento de última generación para viajes largos.",
     "features": [
@@ -27,7 +27,7 @@
     "mileage": 9800,
     "seats": 8,
     "type": "SUV",
-    "image": "https://www.topspeed.com/wp-content/uploads/2023/04/2023-Hyundai-Palisade-Calligraphy-Night-Edition-1.jpg",
+    "image": "/images/2024-hyundai-palisade.png",
     "featured": true,
     "description": "SUV de gran tamaño con un diseño imponente, máximo confort y una cabina sumamente espaciosa.",
     "features": [
@@ -46,7 +46,7 @@
     "mileage": 4500,
     "seats": 5,
     "type": "SUV",
-    "image": "https://www.2025toyota.com/wp-content/uploads/2024/03/Toyota-RAV4-2025-Exterior.jpg",
+    "image": "/images/2025-Toyota-RAV4.png",
     "featured": true,
     "description": "Diseño renovado con excelente rendimiento, tracción ágil y tecnología de vanguardia.",
     "features": [
@@ -65,7 +65,7 @@
     "mileage": 6200,
     "seats": 5,
     "type": "SUV",
-    "image": "https://s2.revistacarro.com.br/wp-content/uploads/2024/02/Novo-Hyundai-Tucson-2025.jpg",
+    "image": "/images/2025-Tucson.jpeg",
     "featured": false,
     "description": "SUV compacto con visual reestilizado, interior moderno y conducción sumamente cómoda.",
     "features": [
@@ -84,7 +84,7 @@
     "mileage": 3100,
     "seats": 2,
     "type": "Deportivo",
-    "image": "https://www.autocosmos.cl/noticias/galerias/2021/04/jaguar-f-type-2021-chile.jpg",
+    "image": "/images/Jaguar.jpg",
     "featured": false,
     "description": "Deportivo biplaza de alto rendimiento con una conducción ágil y acabados de lujo elegantes.",
     "features": [
